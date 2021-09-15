@@ -3,9 +3,7 @@
     padding: 0 0;
     
 }
-.intro-section{
-    /* background-color: rgb(196, 192, 192); */
-}
+
 .intro-section img{
     display: block;
     margin: auto;
@@ -17,10 +15,8 @@
     background-image: linear-gradient(to bottom right, rgb(255, 0, 43), rgb(61, 1, 56));
 }
 .heading{
-    color: grey;
+    color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: block;
-    margin: 20px 570px;
     text-decoration: underline;
     
 }
@@ -39,4 +35,37 @@
 .image img{
     height:40vh;
     width: 40vh;
+}
+
+@media screen and (max-width: 1253px) {
+
+    .cards{
+        margin: 0 0px;
+    }
+    .card{
+        margin: 30px 30px;
+    }
+}
+
+
+@media screen and (max-width: 861px) {
+
+    .cards{
+        margin: 0 0px;
+    }
+}
+
+@media screen and (max-width: 571px) {
+
+    .res-img{
+        height:40vh;
+        width: 40vh;
+    }
+}
+@media screen and (max-width: 327px) {
+
+    .res-img{
+        height:25vh;
+    width: 25vh;
+    }
 }

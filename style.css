@@ -1,0 +1,42 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    
+}
+.intro-section{
+    /* background-color: rgb(196, 192, 192); */
+}
+.intro-section img{
+    display: block;
+    margin: auto;
+    padding: 20px 0;
+    height: 30vh;
+
+}
+.main-container{
+    background-image: linear-gradient(to bottom right, rgb(255, 0, 43), rgb(61, 1, 56));
+}
+.heading{
+    color: grey;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    margin: 20px 570px;
+    text-decoration: underline;
+    
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 50px;
+}
+
+.card{
+    margin: 50px 50px;
+}
+
+.image img{
+    height:40vh;
+    width: 40vh;
+}
